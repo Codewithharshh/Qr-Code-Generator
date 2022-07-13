@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&family=Roboto:wght@300&display=swap');
+body{
+background:#2f2f2f;        
+} 
+
+.div_one{
+height:230px;  /*430px*/
+width:330px;
+background:linear-gradient(#8E2DE2,#4A00E0);
+border-radius:25px;
+position:absolute;
+top:250px;
+left:50%;
+transform:translate(-50%, -50%);
+}
+
+.div_two{
+height:200px; /*400px*/ 
+width:300px;
+background:white;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius:25px;
+font-family: 'Poppins', sans-serif;
+text-align:center;
+}
+
+.qr-code{
+height:170px;  
+width:170px;
+position:absolute;
+top:42%;
+left:50%;
+transform:translate(-50%,-50%);
+display:none;
+}
+
+.input{
+all:unset;
+position:absolute;  
+bottom:50px;
+transform:translate(-50%,-50%);
+border:1px solid grey;
+border-radius:25px;
+height:40px;
+width:230px;
+text-align:left;
+padding-left:20px;
+}
+
+.generate_btn{
+all:unset;   
+position:absolute;
+bottom:-10px;
+transform:translate(-50%,-50%);
+background:linear-gradient(#8E2DE2,#4A00E0);
+padding:10px;
+color:white;
+border-radius:25px;
+width:150px;
+}
+
+.title{
+font-size:16px;        
+}
